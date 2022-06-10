@@ -83,6 +83,12 @@ public class Employee {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", name=" + name + ", designation=" + designation + ", salary=" + salary
+				+ "]";
+	}
 	
 	
 }
